@@ -1,0 +1,95 @@
+/* Nav-Element Modification */
+
+header {
+    border: 5px #cccccc solid;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline; 
+    margin-left: 100px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #777777;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  #A-myName {
+    padding-right: 100px;
+    color: white;
+  }
+  
+  #A-myName:hover {
+    color: black;
+  }
+  
+  span.navName {
+    background: #4aaaa5;
+    padding: 13px 10px 10px 10px; 
+    border-radius: 10px;
+  }
+  
+  /* Nav-Element Modification: End */
+  
+  /* Not Nav-Element Modification */
+  
+  #main-image {
+    float: left;
+    margin-right: .9rem;
+    width: 150px;
+    height: auto;
+  }
+  
+  h1 {
+    color: #4aaaa5;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+  }
+  
+  p {
+    color: #777777;
+  }
+  
+  footer {
+    background: #666666;
+    height: 2rem;
+    border-top: 8px solid #4aaaa5;
+    color: #777777;
+  }
+  
+  div.main-content {
+    border: 10px solid #dddddd;
+    padding-left: .9rem;
+    padding-right: .9rem;
+  }
+  
+  /* CSS Style Rules for "Sticky Footer", using "display: flex" Property */
+  
+  /* Also, background-image Style Rule is located below*/
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background: url("/Users/seancumming/code/homework-one/assets/Images/triangle-mosaic.png");
+  }
+  
+  #main-content {
+    flex: 1 0 auto;
+  }

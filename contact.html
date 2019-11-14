@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>homework-one.contact</title>
+    <meta name="viewport"
+       content="width=device-width, initial-scale=1">       
+    <link rel="stylesheet" type="text/css" href="assets/css/style-contact.css">
+    </style>
+  </head>
+  <body>
+    <header id="main-header">
+     <nav id="navNode">
+      <ul>
+        <li><a id="A-myName" href="#"><span class="navName">Sean Cumming</span></a></li>
+        <li><a id="A-About" href="#">About |</a></li>
+        <li><a id="A-Portfolio" href="#">Portfolio |</a></li>
+        <li style=><a id="A-Contact" href="#">Contact</a></li>
+      </ul>
+     </nav>
+    </header>
+    <div class="main-content">
+      <h1>Contact</h1>
+      <hr></hr>
+    <form name="myContactInfo" method="post" action="URL-To-Script">
+      <output></output>
+    <fieldset>
+      <legend><span class="grey">Enter Contact Information With Message For Quick Response</legend>
+   <!-- label El + input El for Name-->
+      <p id="p0"><label class="Question" for="user_name">Name:</label>
+      <input type="text" id="user_Name" name="user_name" placeholder="Enter your full name..." size="50" required autofocus>
+      </p>
+   <!-- label El + input El for Email-->
+      <p id="p1"><label class="Question" for="user_email">Email:</label>
+      <input type="email" id="user_Email" name="user_email" placeholder="example@gmail.com" size="50" required>
+  <!-- label El + textarea El for Message-->
+      <p id="p2"><label id="text-areaMessage" for="user_Message"><span class="Question">Message:</label>
+        <textarea id="textArea" name="user_Message" placeholder="Any Comments You'd Like to Share?"></textarea>
+        <!-- Put <textarea> rows + cols attrs. in CSS Later --> 
+      </p>    
+   <!-- "Submit" input El (visually, a Button) --> 
+      <p id="p3"><input class="input" type="submit" value="Submit"></input>
+      </p>
+      </fieldset>
+    </form>
+    <footer></footer>
+   </div>
+  </body>
+</html>
