@@ -66,7 +66,14 @@ header {
     display: inline;
     margin-left: 2%;
   }
-  
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 5px ridge #4aaaa5;
+  border-radius: 9px;
+}
+
   /* CSS Style Rules for "Sticky Footer" + background-image */
   
   html {
