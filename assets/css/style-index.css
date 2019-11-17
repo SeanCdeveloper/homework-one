@@ -1,16 +1,17 @@
 /* Nav-Element Modification */
 
 header {
+    height: 3.5em;
     border: 5px #cccccc solid;
-    height: 50px;
-  }
+    font-size: 17px;
+}
   
   nav ul {
     list-style: none;
     display: inline; 
-    margin-left: 100px;
     position: absolute;
-    top: 10px;
+    top: 5px;
+    margin-left: 50px;
   }
   
   nav li {
@@ -39,7 +40,7 @@ header {
   
   span.navName {
     background: #4aaaa5;
-    padding: 13px 10px 10px 10px; 
+    padding: 17px 10px 14px 10px; 
     border-radius: 10px;
   }
   
@@ -61,6 +62,7 @@ header {
   
   p {
     color: #777777;
+    font-size: 13.25pt;
   }
   
   footer {
@@ -70,26 +72,28 @@ header {
     color: #777777;
   }
   
-  div.main-content {
+  .main-content {
     border: 10px solid #dddddd;
     padding-left: .9rem;
     padding-right: .9rem;
+    height: 30em;
   }
   
   /* CSS Style Rules for "Sticky Footer", using "display: flex" Property */
   
   /* Also, background-image Style Rule is located below*/
-  
-  html {
-    height: 100%;
-  }
-  
-  body {
+
+  body {  
     display: flex;
     flex-direction: column;
-    background: url("/Users/seancumming/code/homework-one/assets/Images/triangle-mosaic.png");
+    margin: 100px;
+    margin-top: 0px;
   }
   
-  #main-content {
+  .main-content {
     flex: 1 0 auto;
+  }
+
+  header, .main-content {
+    background: url("/Users/seancumming/code/homework-one/assets/Images/triangle-mosaic.png");
   }

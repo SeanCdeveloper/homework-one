@@ -1,16 +1,17 @@
 
 /* Nav-Element Modification */
 header {
-  height: 3em;  
+  height: 3.5em;  
   border: 5px #cccccc solid; 
+  font-size: 16px;
 }
 
 nav ul {
   list-style: none;
   display: inline; 
-  margin-left: 100px;
   position: absolute;
-  top: 10px;
+  top: 5px;
+  margin-left: 50px;
 }
 
 nav li {
@@ -39,18 +40,17 @@ a:hover {
 
 span.navName {
   background: #4aaaa5;
-  padding: 13px 10px 10px 10px;
+  padding: 17px 10px 14px 10px;
   border-radius: 10px;
 }
 
-/* Nav-Element Modification: End */
+/* Nav-Element Modifeication: End */
 
 /* Not Nav-Element Modification */
 
 h1 {
   color: #4aaaa5;
   font-family: "Georgia", Times, "Times New Roman", serif;
-  margin-left: 2%;
 }
 
 p {
@@ -69,12 +69,16 @@ footer {
   border-radius: 10px;
 }
 
-div.main-content {
+.main-content {
   border: 10px solid #dddddd;
 }
 
 * {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+fieldset {
+  height: 325px;
 }
 
 /* CSS Style Rules for "Sticky Footer" + background-image, below */
@@ -84,20 +88,25 @@ html {
 }
 
 body {
+  margin: 100px;
+  margin-top: 0px;  
   display: flex;
-  flex-direction: column;  
-  background: url("/Users/seancumming/code/homework-one/assets/Images/triangle-mosaic.png");
+  flex-direction: column; 
 }
 
-#main-content {
+.main-content {
   flex: 1 0 auto;
+}
+
+header, .main-content {
+  background: url("/Users/seancumming/code/homework-one/assets/Images/triangle-mosaic.png");
 }
 
 /* Special Modifications For "Form" Elements: (1) textarea, (2) input type="submit".  */
 
 textarea {
   width:  300px;
-  height: auto;  
+  height: 150px;  
 }
   
   .input {
